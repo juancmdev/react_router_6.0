@@ -5,13 +5,12 @@ import Nosotros from "./pages/Nosotros";
 import Contacto from "./pages/Contacto";
 import Blog from "./pages/Blog";
 import LayoutPublic from "./layouts/LayoutPublic";
+import Notfound from "./pages/NotFound";
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <h1>App</h1>
-
       <Routes>
         <Route path="/" element={<LayoutPublic />}>
           <Route element={<Inicio />} path="/"></Route>
@@ -19,6 +18,7 @@ const App = () => {
           <Route element={<Contacto />} path="/contacto"></Route>
           <Route element={<Blog />} path="/blog"></Route>
         </Route>
+        <Route element={<Notfound />} path="*"></Route>
       </Routes>
     </>
   );
