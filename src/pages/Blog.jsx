@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import { useFetch } from "../../hooks/useFetch";
 
 const Blog = () => {
@@ -9,14 +11,22 @@ const Blog = () => {
   if (error) return <p>error.....................</p>;
 
   return (
-    <div>
+    <>
       <h1>Blog 2</h1>
-      <ul>
-        {data.forEach((el) => {
-          <li key={el.id}>{el.title}</li>;
+      <ul className="list-group">
+        {data.map((item) => {
+          return (
+            <Link
+              to={`/blog/${item.id}`}
+              key={item.id}
+              className="list-group´-item"
+            >
+              {item.id} - {item.title}
+            </Link>
+          );
         })}
       </ul>
-    </div>
+    </>
   );
 };
 
