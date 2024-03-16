@@ -11,5 +11,5 @@ Currently, two official plugins are available:
 - Se establecen rutas a cada página como Inicio, Nosotros, Contacto y Blog pudiendo desplazarnos entre cada una de ellas.
 - Se implementa un buscador el la página de blog utilizando el hoock useSearchParams el cual es capaz de realizar
 - la búsqueda de la palabra que queramos y se encuentre disponible en los títulos de los artículos l Blog.
-- 
-- Práctica realizada y guiada  por @bluuweb
+-
+- Práctica realizada y guiada por [@bluuweb]
