@@ -6,4 +6,4 @@
 - la búsqueda de la palabra que queramos y se encuentre disponible en los títulos de los artículos l Blog.
 -
 - Práctica realizada y guiada por [@bluuweb](https://bluuweb.dev/)
-- [Link](https://bluuweb.dev/) para visualizar el proyecto
+- [Link](https://react-router-60-dxsdev.netlify.app/) para visualizar el proyecto
